@@ -1,10 +1,9 @@
 google-homepage
 ===============
-<!doctype html>
 <html lang ="en">
-	<head>
-		
-	</head>
+<head>
+
+</head>
 
 <body>
 	<form action="#" method="POST" name="google_search_bar">
