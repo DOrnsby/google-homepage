@@ -1,15 +1,17 @@
 google-homepage
 ===============
+<!doctype html>
 <html lang ="en">
 <head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 	<ul>
 		<li><a href="#">+Username</a></li>
-		<li><a href="#"></a>Gmail</li>
-		<li><a href="#"></a>Images</li>
-		<li><a href="#"></a>Apps</li>
-		<li><a href="#"></a>Alerts</li>
-		<li><a href="#"></a>Share</li>
-		<li><a href="#"></a>Account</li>
+		<li><a href="#">Gmail</a></li>
+		<li><a href="#">Images</a></li>
+		<li><a href="#">Apps</a></li>
+		<li><a href="#">lerts</a>A</li>
+		<li><a href="#">Share</a></li>
+		<li><a href="#">Account</a></li>
 	</ul>
 
 </head>
@@ -21,7 +23,7 @@ google-homepage
 		<input type="text" name="Search"><br>
 		<input type="submit" value="Google Search">
 		<input type="submit" value="I'm Feeling Lucky">
-	</form>
+</form>
 
 </body>
 
