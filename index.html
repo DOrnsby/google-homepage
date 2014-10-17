@@ -1,32 +1,64 @@
-<DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html lang ="en">
-
 <head>
+	<title>The Google Homepage</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
-
 </head>
-
 <body>
-	<ul>
-		<li><a href="#">+Username</a></li>
-		<li><a href="#">Gmail</a></li>
-		<li><a href="#">Images</a></li>
-		<li><a href="#">Apps</a></li>
-		<li><a href="#">Alerts</a></li>
-		<li><a href="#">Share</a></li>
-		<li><a href="#">Account</a></li>
-	</ul>
-	<img src="https://www.google.com/images/srpr/logo11w.png"><br>
-	
-<form action="#" method="POST" name="google_search_bar">
-		<input type="text" name="Search"><br>
-		<input type="submit" value="Google Search">
-		<input type="submit" value="I'm Feeling Lucky">
-</form>
+	<div id="container">
+		<div id="topbar">
+		<ul>
+			<li>
+				<a href="#"> <img style="border-radius: 100%" src="Icons/blueperson.jpg"/></a>
+			</li>
+			
+			<li>
+				<a href="#">Share</a>
+			</li>
+		
+			<li>
+				<a href="#"> <img src="icons/notification.png" ></a>
+			</li>
+		
+			<li>
+				<a href="#"> <img src="icons/apps.png"> </a>
+			</li>
+			<li>
+				<a href="#">Images</a>
+			</li>
+			<li>
+				<a href="https://mail.google.com">Gmail</a>
+			</li>
+			<li>
+				<a href="#">+Username</a>
+			</li>
+		</ul>
+		</div>
 
+		<img id="logo" src="https://www.google.com/images/srpr/logo11w.png">
+		<div id="searchbar">
+			<form action="#" method="POST">
+				<input name="search" type="search">		
+			</form>
+		<div id="searchoptions">
+			<div class="button">Google Search</div>
+			<div class="button">I'm Feeling Lucky</div>
+		</div>
+		</div>
+		<div id="bottombar">
+			<ul id="bottomright">
+				<li><a href="http;://www.google.com/preferences">Settings</a></li>
+				<li><a href="https://www.google.com/intl/en/policies/"></a></li>
+			</ul>
+			<ul id="bottomleft">
+				<li><a href="htts://www.google.com/intl/en/about/"></a></li>
+				<li><a href="htts://www.google.com/services/"></a></li>
+				<li><a href="htts://www.google.com/intl/en/ads/"></a></li>
+			</ul>
+		</div>
+	</div>
 <footer>
-Presented by<a href="http://www.theodinproject.com/">The Odin Project </a>
+Inspired by<a href="http://www.theodinproject.com/">The Odin Project </a>
 </footer>
-
 </body>
 </html>
